@@ -3,6 +3,7 @@
 /* &display=swap&subset=cyrillic-ext */
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat:regular500,600,700,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:700,900&display=swap");
 
 /* -----Normalize------------------------------------------------------------------------------------- */
 *,
@@ -152,13 +153,10 @@ body {
 	margin: -120px 0px 0px 0px;
 }
 .page__experience {
-	
 }
 .page__practice {
-	
 }
 .page__who-we-are {
-	
 }
 .page__company {
 	margin: 0px 0px 64px 0px;
@@ -166,7 +164,6 @@ body {
 .page__subscribe {
 }
 .page__touch {
-	
 }
 /* =================================================================================== */
 .first-screen {
@@ -540,7 +537,7 @@ body {
 /* ======================================================================================================================================================== */
 .touch {
 	font-size: 0;
-	background-color: #F3F3F3;
+	background-color: #f3f3f3;
 	padding: 80px 0;
 }
 .touch__header {
@@ -640,7 +637,7 @@ body {
 }
 .card-touch:hover .card-touch__button:hover {
 	background-color: #fff;
-	color: #252B42;
+	color: #252b42;
 }
 /* ====== FOOTER ============================================================================= */
 .footer {
@@ -656,7 +653,7 @@ body {
 .footer__header {
 }
 .header-footer {
-	background-color: #FAFAFA;
+	background-color: #fafafa;
 	padding: 40px 0;
 }
 .header-footer__row {
@@ -695,7 +692,7 @@ body {
 .footer__main {
 }
 .main-footer {
-	background-color: #17213C;
+	background-color: #17213c;
 	padding: 50px 0;
 	color: #fff;
 }
@@ -759,13 +756,13 @@ body {
 	width: 29.68%;
 }
 .main-footer__item_phone::before {
-	background: url('../img/footer/icons/phone.svg') center / 30px 24px no-repeat;
+	background: url("../img/footer/icons/phone.svg") center / 30px 24px no-repeat;
 }
 .main-footer__item_location::before {
-	background: url('../img/footer/icons/location.svg') center / 30px 24px no-repeat;
+	background: url("../img/footer/icons/location.svg") center / 30px 24px no-repeat;
 }
 .main-footer__item_mail::before {
-	background: url('../img/footer/icons/mail.svg') center / 30px 24px no-repeat;
+	background: url("../img/footer/icons/mail.svg") center / 30px 24px no-repeat;
 }
 /* ======================================================================================================================================================== */
 .footer__bottom {
@@ -801,6 +798,118 @@ body {
 	margin: 0px 20px 0px 0px;
 }
 .bottom-footer__icon {
-
 }
 /* ======================================================================================================================================================== */
+.footer__homework {
+	margin: 0px 0px 120px 0px;
+}
+.homework {
+	border-top: 1px solid #000;
+	padding: 80px 0;
+	background: linear-gradient(rgba(50, 205, 50, 0.5), transparent),
+					linear-gradient(90deg, #87ceeb, transparent),
+					linear-gradient(-90deg, #ff7f50, transparent);
+}
+.homework__title {
+	text-align: center;
+	font-size: 32px;
+	font-weight: 700;
+}
+/* ======================================================================================================================================================== */
+
+.footer__our-impact {
+}
+.our-impact {
+	font-family: "roboto", sans-serif;
+	color: #fff;
+	background: #29c3be url("../img/footer/our-impact/decor-bg.png") center top no-repeat;
+	padding: 112px 0 212px;
+}
+.our-impact__container {
+	max-width: 1050px;
+	padding: 0 15px;
+	margin: 0px auto;
+}
+.our-impact__top {
+	margin: 0px 0px 56px 0px;
+}
+.top-our-impact {
+}
+.top-our-impact__col {
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+}
+.block-title {
+}
+.block-title__body {
+	max-width: 411px;
+}
+.block-title__subtitle {
+	font-size: 12px;
+	line-height: 200%;
+	font-weight: 700;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	vertical-align: middle;
+	margin: 0px 0px 31px 0px;
+}
+.block-title__subtitle::before {
+	content: "";
+	display: inline-block;
+	width: 16px;
+	height: 17px;
+	vertical-align: middle;
+	background: url("../img/footer/icons/our-impact/decor-subtitle-white.svg") center / cover no-repeat;
+	margin: -4px 14px 0px 0px;
+}
+.block-title__title {
+	font-size: 36px;
+	line-height: 117%;
+	font-weight: 900;
+}
+.top-our-impact__image {
+	max-width: 498px;
+	border-radius: 40px;
+	overflow: hidden;
+	margin: -192px 0px 0px auto;
+}
+.top-our-impact__image img {
+	max-width: 100%;
+}
+.our-impact__bottom {
+}
+.bottom-our-impact {
+}
+.bottom-our-impact__column {
+	display: inline-block;
+	width: 25%;
+	vertical-align: top;
+}
+.bottom-our-impact__content {
+	display: inline-block;
+	vertical-align: top;
+}
+.bottom-our-impact__icon {
+	display: inline-block;
+	vertical-align: top;
+	width: 76px;
+	height: 76px;
+	margin: 0px 11px 0px 0px;
+}
+.bottom-our-impact__icon img {
+	max-width: 100%;
+}
+.bottom-our-impact__number {
+	font-size: 36px;
+	line-height: 117%;
+	font-weight: 900;
+	margin: 0px 0px 3px 0px;
+}
+.bottom-our-impact__text {
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0.15px;
+	font-weight: 700;
+	color: #5d62b5;
+}
