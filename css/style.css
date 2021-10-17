@@ -152,13 +152,13 @@ body {
 	margin: -120px 0px 0px 0px;
 }
 .page__experience {
-	padding: 80px 0;
+	
 }
 .page__practice {
-	padding: 125px 0 80px;
+	
 }
 .page__who-we-are {
-	padding: 100px 0 136px;
+	
 }
 .page__company {
 	margin: 0px 0px 64px 0px;
@@ -166,7 +166,7 @@ body {
 .page__subscribe {
 }
 .page__touch {
-	padding: 80px 0;
+	
 }
 /* =================================================================================== */
 .first-screen {
@@ -278,6 +278,7 @@ body {
 }
 /* =================================================================================== */
 .experience {
+	padding: 80px 0;
 }
 .experience__header {
 	margin: 0px 0px 50px 0px;
@@ -326,6 +327,7 @@ body {
 }
 /* =================================================================================== */
 .practice {
+	padding: 125px 0 80px;
 }
 .practice__header {
 	margin: 0px 0px 45px 0px;
@@ -382,6 +384,7 @@ body {
 .who-we-are {
 	font-size: 0;
 	background-color: #fff;
+	padding: 100px 0 136px;
 }
 .who-we-are__header {
 	margin: 0px 0px 100px 0px;
@@ -538,6 +541,7 @@ body {
 .touch {
 	font-size: 0;
 	background-color: #F3F3F3;
+	padding: 80px 0;
 }
 .touch__header {
 	margin: 0px 0px 80px 0px;
